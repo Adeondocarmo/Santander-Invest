@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santander Investe- </title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Santander investimentos -</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre Invest-</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./imagem/santander.jpg" alt="Santander"/>
+            <div>
+                <h2>Sobre Invest</h2>
+                <P>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, inventore iure nulla doloremque praesentium eos beatae tempore. Tempora recusandae, exercitationem repellendus velit sunt dolorum libero totam laudantium dolorem cumque obcaecati!
+                </P>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. In iure fugiat consequatur saepe numquam porro? Accusantium suscipit possimus perspiciatis porro temporibus sapiente ipsam, ab obcaecati omnis inventore doloribus consequatur harum!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Dados para a Invest</h3>
+                    <form id="form-deposito">
+                        <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiario" />
+                        <p class="error-message">
+                            O nome precisa ser completo
+                        </p>
+                        <input type="number" id="numero-conta" required placeholder="Numero da conta" />
+                        <input type="number" id="valor-deposito" required placeholder="Valor" />
+                        <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
+                        <button type="submit" id="deposito" >Depositar</button>
+                    </form>
+                    <p class="sucess-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>
+                &copy;Santander investimentos - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
